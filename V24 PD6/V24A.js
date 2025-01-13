@@ -23011,4 +23011,10 @@ let data = [
 ];
 //1 print each card where the series set is "HeartGold & SoulSilver"
 
+const hgss = data.filter((card) => (card.series = "HeartGold & SoulSilver"));
+console.log(hgss);
+
 //2 print each card name where the card type "includes" Fire
+
+const includeFire = data.filter((card) => card.includes((card.type = "Fire")));
+console.log(card.name);
